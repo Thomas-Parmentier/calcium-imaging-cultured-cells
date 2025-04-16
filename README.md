@@ -10,6 +10,7 @@ A standalone application for analyzing calcium imaging data with a graphical use
   - Calcium traces
   - Raster plots
   - Synchronization analysis
+  - Neuronal activity Heatmap
 - Export processed data and analysis results
 
 ## Installation
@@ -32,7 +33,7 @@ A standalone application for analyzing calcium imaging data with a graphical use
    - Set the recording parameters:
      - Recording length (in seconds)
      - Image interval (in seconds)
-     - Whether stimulation was applied
+     - Whether stimulation was applied. If yes, baseline fluorescence will be calculated on the first 30 seconds of recording (adjust accordingly).
    - Adjust peak detection parameters:
      - Height threshold
      - Prominence threshold
